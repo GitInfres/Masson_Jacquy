@@ -1,9 +1,7 @@
 class Tetris
-  def
-  	tetris=[[]];
+  def tournerdroite(tableau)
+  	final_tab = tableau.transpose.map(&:reverse)
+	return final_tab
    end
 
-  def score
-    0
-  end
 end
